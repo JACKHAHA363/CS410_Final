@@ -4,12 +4,11 @@ from parser import *
 import pickle
 base_url = "http://lyrics123.net/"
 
-artist_initial = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k",
-               "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w",
-               "x", "y", "z"]
+#artist_initial = ["n", "o", "p", "q", "r", "s", "t", "u", "v", "w",
+#               "x", "y", "z"]
 
 # change this to specify the page. all options are above
-#artist_initial = ["a", "b"]
+artist_initial = ["i"]
 
 all_data = []
 

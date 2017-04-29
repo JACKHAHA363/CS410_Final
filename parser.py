@@ -20,6 +20,8 @@ def getListofSongs(url):
     f = urllib2.urlopen(url)
     s = BeautifulSoup(f, 'lxml')
     tmp = s.find("div", {"id" : "b"})
+    if tmp is None:
+        return []
     tmp = tmp.find_all("p")[1]
     tmp = tmp.find_all("a")
     if len(tmp) == 0:
