@@ -10,11 +10,13 @@ for letter in ["x"]:
         for line_entry in song_entry.lyrics:
             line_entry = line_entry.encode("ascii", "ignore")
             line_entry = line_entry.lower()
+            line_entry = line_entry.replace("<s>", " ")
+            line_entry = line_entry.replace("</s>", " ")
+            for ascii in range(33,65):
+                c = chr(ascii)
+                line_entry = line_entry.replace(c, " ")
             for sw in stop_words:
                 line_entry = line_entry.replace(' ' + sw + ' ', ' ')
-                #line_entry = line_entry.replace(sw + '.', '')
-                #line_entry = line_entry.replace(sw + ',', '')
-                #line_entry = line_entry.replace(sw + '?', '')
             outf.write(line_entry + " ")
    	outf.write("\n")
     f1.close()
