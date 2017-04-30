@@ -8,7 +8,7 @@ base_url = "http://lyrics123.net/"
 #               "x", "y", "z"]
 
 # change this to specify the page. all options are above
-artist_initial = ["i"]
+artist_initial = ["x"]
 
 all_data = []
 

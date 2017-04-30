@@ -1,4 +1,4 @@
 log.txt
-*.dat
+x_songs.dat
 *.pyc
 env/
