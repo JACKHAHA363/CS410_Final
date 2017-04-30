@@ -12,7 +12,9 @@ for letter in ["x"]:
             line_entry = line_entry.lower()
             line_entry = line_entry.replace("<s>", " ")
             line_entry = line_entry.replace("</s>", " ")
-            for ascii in range(33,65):
+            for ascii in [i for i in range(33,65)] + [i for i in range(91,97)] + [i for i in range(123,127)]:
+                if ascii == 39:
+                    continue
                 c = chr(ascii)
                 line_entry = line_entry.replace(c, " ")
             for sw in stop_words:
