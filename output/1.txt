@@ -1,0 +1,31 @@
+========== Topic 0 ==========
+ zzzzz 0.0
+ zwischen 0.0
+ zweifler 0.0
+ zwar 0.0
+ zvakadaro 0.0
+ zvaanofeel 0.0
+ zuzusehen 0.0
+ zutsu 0.0
+ zusteht 0.0
+ zusammen 0.0
+ zusami 0.0
+ zure 0.0
+ zurck 0.0
+ zur 0.0
+ zunder 0.0
+ zum 0.0
+ zukunft 0.0
+ zui 0.0
+ zuhrt 0.0
+ zuhaus 0.0
+========== doc_id 0 topic distribution ==========
+[ 1.]
+========== doc_id 1 topic distribution ==========
+[ 1.]
+========== doc_id 2 topic distribution ==========
+[ 1.]
+========== doc_id 3 topic distribution ==========
+[ 1.]
+========== doc_id 4 topic distribution ==========
+[ 1.]
